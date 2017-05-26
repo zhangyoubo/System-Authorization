@@ -13,6 +13,18 @@
 		CCD5CF2C1ED51FD500509D2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD5CF2A1ED51FD500509D2E /* Main.storyboard */; };
 		CCD5CF2E1ED51FD500509D2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD5CF2D1ED51FD500509D2E /* Assets.xcassets */; };
 		CCD5CF311ED51FD500509D2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD5CF2F1ED51FD500509D2E /* LaunchScreen.storyboard */; };
+		CCD5CF3A1ED5202B00509D2E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF391ED5202B00509D2E /* CoreTelephony.framework */; };
+		CCD5CF3D1ED5203700509D2E /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF3B1ED5203700509D2E /* Photos.framework */; };
+		CCD5CF3E1ED5203700509D2E /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF3C1ED5203700509D2E /* PhotosUI.framework */; };
+		CCD5CF401ED5204000509D2E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF3F1ED5204000509D2E /* AVFoundation.framework */; };
+		CCD5CF421ED5204800509D2E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF411ED5204800509D2E /* CoreLocation.framework */; };
+		CCD5CF451ED5206100509D2E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF431ED5206100509D2E /* AddressBook.framework */; };
+		CCD5CF461ED5206100509D2E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF441ED5206100509D2E /* AddressBookUI.framework */; };
+		CCD5CF491ED5207200509D2E /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF471ED5207200509D2E /* Contacts.framework */; };
+		CCD5CF4A1ED5207200509D2E /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF481ED5207200509D2E /* ContactsUI.framework */; };
+		CCD5CF4C1ED534C800509D2E /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF4B1ED534C800509D2E /* UserNotifications.framework */; };
+		CCD5CF511ED565AE00509D2E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF501ED565AE00509D2E /* EventKit.framework */; };
+		CCD5CF531ED56BEA00509D2E /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD5CF521ED56BEA00509D2E /* CallKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,19 @@
 		CCD5CF2D1ED51FD500509D2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCD5CF301ED51FD500509D2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCD5CF321ED51FD500509D2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD5CF391ED5202B00509D2E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CCD5CF3B1ED5203700509D2E /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		CCD5CF3C1ED5203700509D2E /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		CCD5CF3F1ED5204000509D2E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CCD5CF411ED5204800509D2E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CCD5CF431ED5206100509D2E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CCD5CF441ED5206100509D2E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		CCD5CF471ED5207200509D2E /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		CCD5CF481ED5207200509D2E /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		CCD5CF4B1ED534C800509D2E /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		CCD5CF4D1ED5595000509D2E /* System Authorization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "System Authorization.entitlements"; sourceTree = "<group>"; };
+		CCD5CF501ED565AE00509D2E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CCD5CF521ED56BEA00509D2E /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +58,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD5CF531ED56BEA00509D2E /* CallKit.framework in Frameworks */,
+				CCD5CF511ED565AE00509D2E /* EventKit.framework in Frameworks */,
+				CCD5CF4C1ED534C800509D2E /* UserNotifications.framework in Frameworks */,
+				CCD5CF491ED5207200509D2E /* Contacts.framework in Frameworks */,
+				CCD5CF4A1ED5207200509D2E /* ContactsUI.framework in Frameworks */,
+				CCD5CF451ED5206100509D2E /* AddressBook.framework in Frameworks */,
+				CCD5CF461ED5206100509D2E /* AddressBookUI.framework in Frameworks */,
+				CCD5CF421ED5204800509D2E /* CoreLocation.framework in Frameworks */,
+				CCD5CF401ED5204000509D2E /* AVFoundation.framework in Frameworks */,
+				CCD5CF3D1ED5203700509D2E /* Photos.framework in Frameworks */,
+				CCD5CF3E1ED5203700509D2E /* PhotosUI.framework in Frameworks */,
+				CCD5CF3A1ED5202B00509D2E /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,7 @@
 			children = (
 				CCD5CF201ED51FD500509D2E /* System Authorization */,
 				CCD5CF1F1ED51FD500509D2E /* Products */,
+				CCD5CF381ED5202B00509D2E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +96,7 @@
 		CCD5CF201ED51FD500509D2E /* System Authorization */ = {
 			isa = PBXGroup;
 			children = (
+				CCD5CF4D1ED5595000509D2E /* System Authorization.entitlements */,
 				CCD5CF241ED51FD500509D2E /* AppDelegate.h */,
 				CCD5CF251ED51FD500509D2E /* AppDelegate.m */,
 				CCD5CF271ED51FD500509D2E /* ViewController.h */,
@@ -77,6 +116,25 @@
 				CCD5CF221ED51FD500509D2E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCD5CF381ED5202B00509D2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5CF521ED56BEA00509D2E /* CallKit.framework */,
+				CCD5CF501ED565AE00509D2E /* EventKit.framework */,
+				CCD5CF4B1ED534C800509D2E /* UserNotifications.framework */,
+				CCD5CF471ED5207200509D2E /* Contacts.framework */,
+				CCD5CF481ED5207200509D2E /* ContactsUI.framework */,
+				CCD5CF431ED5206100509D2E /* AddressBook.framework */,
+				CCD5CF441ED5206100509D2E /* AddressBookUI.framework */,
+				CCD5CF411ED5204800509D2E /* CoreLocation.framework */,
+				CCD5CF3F1ED5204000509D2E /* AVFoundation.framework */,
+				CCD5CF3B1ED5203700509D2E /* Photos.framework */,
+				CCD5CF3C1ED5203700509D2E /* PhotosUI.framework */,
+				CCD5CF391ED5202B00509D2E /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +170,17 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4GB3PHABNJ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -220,7 +289,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +331,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -272,9 +341,12 @@
 		CCD5CF361ED51FD500509D2E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALTERNATE_OWNER = "张友波";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "System Authorization/System Authorization.entitlements";
 				DEVELOPMENT_TEAM = 4GB3PHABNJ;
 				INFOPLIST_FILE = "System Authorization/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MeiQi.System-Authorization";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,8 +357,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "System Authorization/System Authorization.entitlements";
 				DEVELOPMENT_TEAM = 4GB3PHABNJ;
 				INFOPLIST_FILE = "System Authorization/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MeiQi.System-Authorization";
 				PRODUCT_NAME = "$(TARGET_NAME)";

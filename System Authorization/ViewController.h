@@ -10,6 +10,28 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *CellularAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *photoAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *cameraAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *microphoneAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *locationAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *notificationAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *contactAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *reminderAuthBtn;
+@property (weak, nonatomic) IBOutlet UIButton *calendarAuthBtn;
+
 
 @end
+
+
+
+
+
+
+
+
+
+
+
+
 
